@@ -5,11 +5,11 @@
   <h1>Register</h1>
   <p>Already have an account?<a href="login.php">Log in!</a></p>
 
-  <form action="" method="POST">
+  <form action="includes/register-inc.php" method="POST">
     <input type="text" name="username" placeholder="Username">
     <input type="password" name="password" placeholder="Password">
-    <input type="password" name="confirmPassword" placeholder="Password">
-    <button type="submit">Register</button>
+    <input type="password" name="confirmPassword" placeholder="Confirm Password">
+    <button type="submit" name="submit">REGISTER</button>
   </form>
 </div>
 <?php
