@@ -3,12 +3,12 @@
 ?>
 <div>
   <h1>Log in</h1>
-  <p>No account?<a href="register.php">Register here!</a></p>
+  <p>No account? <a href="register.php">Register here!</a></p>
 
-  <form action="" method="POST">
+  <form action="includes/login-inc.php" method="POST">
     <input type="text" name="username" placeholder="Username">
     <input type="password" name="password" placeholder="Password">
-    <button type="submit">LOGIN</button>
+    <button type="submit" name="submit">LOGIN</button>
   </form>
 </div>
 <?php

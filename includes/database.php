@@ -1,11 +1,10 @@
 <?php
 
-
-//params to connect to a database
+//parameters needed to connect to a database
 $dbHost = "localhost";
 $dbUser = "root";
-$dbPass = "";
-$dbName = "phptutorial";
+$dbPass = ""; //no password
+$dbName = "phptutorial"; //database name
 
 //connection to database
 $conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);

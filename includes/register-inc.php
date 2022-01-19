@@ -1,5 +1,6 @@
 <?php
 
+	//checking if the user clicked the [Submit] button
   if (isset($_POST['submit'])) {
     //add database connection
     require 'database.php';
